@@ -1,0 +1,25 @@
+{
+    "name": "divulgueregional/arquitetura-fiscal",
+    "description": "estrututra básica para os cálculos de impostos icms, ipi, pis e cofins",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Divulgueregional\\ArquitetutaFiscal\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Roseno Matos",
+            "email": "roseno@divulgueregional.com.br"
+        }
+    ],
+    "require": {},
+    "keywords": [
+        "impostos",
+        "icms",
+        "ipi",
+        "pis",
+        "cofins",
+        "calculadora fiscal"
+    ]
+}
