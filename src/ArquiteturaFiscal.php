@@ -1,9 +1,11 @@
 <?php
 
+namespace Divulgueregional\ArquiteturaFiscal;
+
 use ArquiteturaFiscal\Factories\ImpostoFactory;
 use ArquiteturaFiscal\Configuracoes\ConfiguracaoFiscal;
 
-class CalculadoraFiscal
+class ArquiteturaFiscal
 {
     public function calcularImposto(array $dados): float
     {
@@ -11,5 +13,10 @@ class CalculadoraFiscal
         $imposto = ImpostoFactory::criar($tipoImposto, $dados);
 
         return $imposto->calcular($dados);
+    }
+
+    public function teste()
+    {
+        return 'Conexão a arquitetura fiscla realizada com sucesso!!!';
     }
 }
