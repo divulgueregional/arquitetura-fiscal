@@ -1,4 +1,4 @@
-/vendor
+/vendors
 /src/impostos/ICMS/ICMS00.php
-/src/impostos/ICMS/ICMSRegraPersonalizada.php
+/src/impostos/ICMS/ICMSRegraPersonalizadas.php
 /src/Configuracoes/ConfiguracaoFiscal.php
