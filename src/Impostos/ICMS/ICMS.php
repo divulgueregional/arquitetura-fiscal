@@ -4,7 +4,7 @@
 namespace Divulgueregional\ArquiteturaFiscal\Impostos\ICMS;
 
 use Divulgueregional\ArquiteturaFiscal\Configuracoes\Formatacao;
-use Divulgueregional\ArquiteturaFiscal\Impostos\ICMS\ICMS00;
+// use Divulgueregional\ArquiteturaFiscal\Impostos\ICMS\ICMS00;
 
 use PhpParser\Node\Stmt\Return_;
 use stdClass;
@@ -74,7 +74,7 @@ class ICMS
                 ######### CALCULAR ##########################################
                 #############################################################
                 if ($std->ICMS->CST == '00') {
-                    $std = ICMS00::calcularICMS00($std);
+                    // $std = ICMS00::calcularICMS00($std);
                 }
             }
         }
