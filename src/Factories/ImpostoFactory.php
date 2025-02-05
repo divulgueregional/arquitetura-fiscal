@@ -1,22 +1,26 @@
 <?php
 
-namespace ArquiteturaFiscal\Factories;
+#############################################################
+######### NÃO USADO - EXCLUIR  ##############################
+#############################################################
 
-use ArquiteturaFiscal\Impostos\ImpostoInterface;
-use ArquiteturaFiscal\Impostos\ICMS\ICMSPadrao;
-use ArquiteturaFiscal\Impostos\ICMS\ICMSRegraPersonalizada;
+// namespace Divulgueregional\ArquiteturaFiscal\Factories;
 
-class ImpostoFactory
-{
-    public static function criar(string $tipo, array $config): ImpostoInterface
-    {
-        switch ($tipo) {
-            case 'ICMSPadrao':
-                return new ICMSPadrao();
-            case 'ICMSPersonalizado':
-                return new ICMSRegraPersonalizada();
-            default:
-                throw new \InvalidArgumentException("Tipo de imposto {$tipo} não suportado.");
-        }
-    }
-}
+// use ArquiteturaFiscal\Impostos\ImpostoInterface;
+// use Divulgueregional\ArquiteturaFiscal\Impostos\ICMS\ICMS;
+// use ArquiteturaFiscal\Impostos\ICMS\ICMSRegraPersonalizada;
+
+// class ImpostoFactory
+// {
+//     public static function criar(string $tipo, array $config): ImpostoInterface
+//     {
+//         switch ($tipo) {
+//             case 'ICMSPadrao':
+//                 return new ICMS();
+//             case 'ICMSPersonalizado':
+//                 return new ICMSRegraPersonalizada();
+//             default:
+//                 throw new \InvalidArgumentException("Tipo de imposto {$tipo} não suportado.");
+//         }
+//     }
+// }
