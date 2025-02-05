@@ -8,7 +8,7 @@ use Divulgueregional\ArquiteturaFiscal\Configuracoes\Formatacao;
 use Divulgueregional\ArquiteturaFiscal\Prod\Prod;
 use Divulgueregional\ArquiteturaFiscal\Ide\Ide;
 use Divulgueregional\ArquiteturaFiscal\Emit\Emit;
-use Divulgueregional\ArquiteturaFiscal\Impostos\Ipi\CalcularIpi;
+use Divulgueregional\ArquiteturaFiscal\Impostos\IPI\IPI;
 use Divulgueregional\ArquiteturaFiscal\Impostos\ICMS\ICMS;
 use Divulgueregional\ArquiteturaFiscal\Impostos\ICMS\ICMSLimpar;
 use Divulgueregional\ArquiteturaFiscal\Impostos\Pis\CalcularPis;
@@ -95,7 +95,7 @@ class ArquiteturaFiscal
         $this->std->IPI->mensagem = '';
         // print_r($this->std->IPI);
         // die;
-        $response = CalcularIpi::calcularIpi($this->std);
+        $response = IPI::calcularIpi($this->std);
         return $response;
     }
 
