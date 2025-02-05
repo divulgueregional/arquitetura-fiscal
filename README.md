@@ -21,7 +21,7 @@ composer require divulgueregional/arquitetura-fiscal
 Pela última tag: </b>
 
 ```php
-composer update divulgueregional/arquitetura-fiscal 1.0.4
+composer update divulgueregional/arquitetura-fiscal 1.0.5
 ```
 
 ## Documentação:

@@ -11,8 +11,8 @@ use Divulgueregional\ArquiteturaFiscal\Emit\Emit;
 use Divulgueregional\ArquiteturaFiscal\Impostos\IPI\IPI;
 use Divulgueregional\ArquiteturaFiscal\Impostos\ICMS\ICMS;
 use Divulgueregional\ArquiteturaFiscal\Impostos\ICMS\ICMSLimpar;
-use Divulgueregional\ArquiteturaFiscal\Impostos\Pis\CalcularPis;
-use Divulgueregional\ArquiteturaFiscal\Impostos\Cofins\CalcularCofins;
+use Divulgueregional\ArquiteturaFiscal\Impostos\Pis\PIS;
+use Divulgueregional\ArquiteturaFiscal\Impostos\Cofins\COFINS;
 
 class ArquiteturaFiscal
 {
@@ -111,7 +111,7 @@ class ArquiteturaFiscal
     {
         $this->std->PIS->status = 'SUCESSO';
         $this->std->PIS->mensagem = '';
-        $response = CalcularPis::calcularPis($this->std);
+        $response = PIS::calcularPis($this->std);
         return $response;
     }
 
@@ -119,7 +119,7 @@ class ArquiteturaFiscal
     {
         $this->std->COFINS->status = 'SUCESSO';
         $this->std->COFINS->mensagem = '';
-        $response = CalcularCofins::calcularCofins($this->std);
+        $response = COFINS::calcularCofins($this->std);
         return $response;
     }
 
