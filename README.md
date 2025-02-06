@@ -24,6 +24,14 @@ Pela última tag: </b>
 composer update divulgueregional/arquitetura-fiscal 1.0.6
 ```
 
+## Remover:
+
+Pela última tag: </b>
+
+```php
+composer remove divulgueregional/arquitetura-fiscal
+```
+
 ## Documentação:
 
 Acesse a pasta docs e leia o README.md - Em desenvolvimento
