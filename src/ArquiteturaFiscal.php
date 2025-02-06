@@ -43,6 +43,9 @@ class ArquiteturaFiscal
         $this->std->baseProduto = $this->baseProduto;
     }
 
+    #################################################
+    ########## INICIO DA ARQUITETURA ################
+    #################################################
     public function calcularImposto()
     {
         $std = $this->prod();

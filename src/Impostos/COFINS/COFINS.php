@@ -2,27 +2,12 @@
 
 namespace Divulgueregional\ArquiteturaFiscal\Impostos\COFINS;
 
-// use ArquiteturaFiscal\Configuracoes\Formatacao;
 use Divulgueregional\ArquiteturaFiscal\Configuracoes\Formatacao;
 use stdClass;
 
-// namespace ArquiteturaFiscal\Impostos\Cofins;
-
-// use stdClass;
-
 class COFINS
 {
-    private $Formatar;
-    private $std;
-    private $formatacao;
-    private  $valores;
-
-    function __construct()
-    {
-        // $this->texto = null;
-        // $this->Formatar = new Formatacao;
-        // $this->formatacao = new \ArquiteturaFiscal\Configuracoes\Formatacao();
-    }
+    function __construct() {}
 
     public static function calcularCofins($std)
     {
