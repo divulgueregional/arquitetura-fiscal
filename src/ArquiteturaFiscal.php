@@ -23,13 +23,7 @@ class ArquiteturaFiscal
     private $valorDesconto;
 
     private $baseProduto;
-    // private $dados;
-    private $CRT;
     private $std;
-
-    // fazer
-    // - icms montar std conforme cada CST
-    // - icms - no array separar SN = SpedNfe
 
     function __construct(stdClass $std)
     {
