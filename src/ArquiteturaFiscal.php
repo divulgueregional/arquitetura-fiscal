@@ -12,7 +12,7 @@ use Divulgueregional\ArquiteturaFiscal\Impostos\IPI\IPI;
 use Divulgueregional\ArquiteturaFiscal\Impostos\ICMS\ICMS;
 use Divulgueregional\ArquiteturaFiscal\Impostos\ICMS\ICMSLimpar;
 use Divulgueregional\ArquiteturaFiscal\Impostos\PIS\PIS;
-use Divulgueregional\ArquiteturaFiscal\Impostos\Cofins\COFINS;
+use Divulgueregional\ArquiteturaFiscal\Impostos\COFINS\COFINS;
 
 class ArquiteturaFiscal
 {
